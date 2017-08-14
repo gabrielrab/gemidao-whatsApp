@@ -1,0 +1,145 @@
+*,
+*:before,
+*:after{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+h1 { font-size: 2.5em; margin: 0.67em 0; color: white;font-family: 'Days One', sans-serif; }
+h2 { font-size: 1.5em; margin: 0.83em 0;font-family: 'Days One', sans-serif; }
+h3 { font-size: 1.17em; margin: 1em 0; font-family: 'Days One', sans-serif;}
+h4 { font-size: 1em; margin: 1.33em 0;font-family: 'Days One', sans-serif; }
+h5 { font-size: 0.83em; margin: 1.67em 0; font-family: 'Days One', sans-serif;}
+h6 { font-size: 0.75em; margin: 2.33em 0;font-family: 'Days One', sans-serif; }
+body{
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	font-size: 13pt;
+	text-align: center;
+	color: black;
+}
+i{
+	color: white;
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: aqua;
+	width: 100vw;
+	height: 100vh;
+}
+section{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #255757;
+	width: 100vw;
+	float: left;
+}
+article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.box{
+	padding: 0.625em;
+	margin: 0.625em;
+	width: 18.750em;
+	height: 23.125em;
+	background-color: white;
+	border-radius: 0.313em;
+	box-shadow: 0.188em 0.188em 0.313em rgba(0,0,0, .4);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
+.bolinha{
+	margin: 0.313em;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background-color: #F89616;
+}
+.div{
+		border-radius: 0.313em;
+	box-shadow: 0.188em 0.188em 0.313em rgba(0,0,0, .4);
+	margin: 10px;
+	padding: 15px;
+	width: 70vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	background-color: white;
+}
+input{
+	font-size: 12pt;
+    border:0px;
+	border-bottom:2px solid #1cabe2;
+	width:90%;
+	background-color:transparent;
+	padding:5px 0px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin-bottom:15px;
+}
+/*-----------------Botao-----------------*/
+button{
+	border: none;
+	cursor: pointer;
+	padding: 15px 40px;
+	border-radius: 2px;
+	font-size: 22px;
+	box-shadow: 2px 2px 4px rgba(0,0,0, .4);
+	background-color: #2196F3;
+	color: white;
+	position: relative;
+	overflow: hidden;
+}
+button .ripple {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    transform: scale(0);
+    animation: ripple 0.6s linear;
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+
+/*-----------------Botao-----------------*/
+footer{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #2a4d4d;
+	width: 100vw;
+	float: left;
+	color: white;
+	padding: 10px;
+}
+a{
+	color: white;
+	font-size: 17pt;
+}
